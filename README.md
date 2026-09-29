@@ -1,16 +1,55 @@
-# React + Vite
+# 🌟 Aurélia Botanicals & Haute Beauté - Loja Virtual de Beleza de Luxo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Loja virtual completa de alta conversão para o nicho de **Beleza & Cosméticos**, desenvolvida em **Vite + React + Vanilla CSS**. Inspirada nas marcas globais de cosmética botânica, skincare vegano, maquiagem de luxo e perfumaria fina.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💎 Funcionalidades e Melhores Práticas do Nicho
 
-## React Compiler
+- ✨ **Design Editorial & High-End**: Paleta de cores sofisticada (Rose Gold, Champagne, Verde Botânico), suporte a **Modo Claro / Escuro (Light & Dark Theme)** e fotos profissionais dos produtos.
+- 🧘‍♀️ **Quiz Diagnóstico Inteligente ("Quiz da Sua Pele")**: Wizard interativo em 3 passos para diagnosticar necessidades de skincare/capilar e recomendar combos com desconto exclusivo.
+- 🛒 **Carrinho Deslizante (Cart Drawer)**: Calculadora de **Frete Grátis em Tempo Real**, gerenciamento de itens e cupons de desconto (`BEMVINDA10`, `QUIZGLOW15`).
+- 💳 **Checkout Guiado em 3 Passos**:
+  - Dados Pessoais e Busca por CEP.
+  - Pagamento por **PIX (com QR Code fictício e cópia de chave em 1 clique + 5% OFF)**, Cartão de Crédito em até 6x sem juros ou Boleto.
+  - Confirmação com número de pedido, rastreamento e animação de comemoração.
+- ⭐ **Prova Social & Avaliações Verificadas**: Seção com depoimentos reais de clientes e selos de comprador verificado.
+- 📱 **100% Responsivo**: Layout otimizado para dispositivos móveis, tablets e desktops.
+- 💬 **Suporte Integrado**: Botão flutuante para atendimento direto via **WhatsApp**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# 1. Clocar o repositório
+git clone https://github.com/n8nexpertdigital/salao-de-beleza.git
+
+# 2. Entrar na pasta do projeto
+cd salao-de-beleza
+
+# 3. Instalar as dependências
+npm install
+
+# 4. Iniciar o servidor de desenvolvimento
+npm run dev
+```
+
+Abra o navegador em `http://localhost:5173/`.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Core**: React 19, JavaScript ES6+
+- **Build Tool**: Vite 8
+- **Estilização**: Vanilla CSS (CSS Variables, Flexbox/Grid, Glassmorphism, Keyframes)
+- **Ícones**: Lucide React
+- **Animações**: Canvas Confetti
+- **Tipografia**: Google Fonts (*Playfair Display* & *Plus Jakarta Sans*)
+
+---
+
+## 📄 Licença
+
+Este projeto foi criado como demonstração de loja virtual para negócios no segmento da Beleza.
